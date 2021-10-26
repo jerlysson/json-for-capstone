@@ -26,22 +26,22 @@ Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usu
 
 POST /desc
 
-Autorizathion: `Bearer ${token}`
+Autorizathion: `Bearer ${token}` <br/>
 body:
 {
-"desc": "hahahhahha",
+"desc": "hahahhahha", <br/>
 "userId": 2,
 }
 
 GET /desc
 
-Autorizathion: null
+Autorizathion: null <br/>
 
-retorno :
+retorno :<br/>
 
 {
-"desc": "ex: descrição marota",
-"userId": 2,
+"desc": "ex: descrição marota",<br/>
+"userId": 2,<br/>
 "id": 1
 }
 
@@ -49,23 +49,23 @@ retorno :
 
 POST /userInfor:
 
-Autorizathion: `Bearer ${token}`
-body:
+Autorizathion: `Bearer ${token}` <br/>
+body:<br/>
 {
-"bio": "esta dando certo",
-"adress": "Maranhão",
+"bio": "esta dando certo",<br/>
+"adress": "Maranhão",<br/>
 "userId": 2
 }
 
 GET /userInfor:
 
-Autorizathion: `Bearer ${token}`
+Autorizathion: `Bearer ${token}` <br/>
 
 response:
 
 {
-"bio": "esta dando certo",
-"adress": "Maranhão",
-"userId": 2,
+"bio": "esta dando certo", <br/>
+"adress": "Maranhão", <br/>
+"userId": 2, <br/>
 "id": 1
 }
