@@ -15,10 +15,57 @@ POST /users
 Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
 Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
 
-
 ### Login
 
 POST /login <br/>
 POST /signin
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+
+### Adcionar Descrição
+
+POST /desc
+
+Autorizathion: `Bearer ${token}`
+body:
+{
+"desc": "hahahhahha",
+"userId": 2,
+}
+
+GET /desc
+
+Autorizathion: null
+
+retorno :
+
+{
+"desc": "ex: descrição marota",
+"userId": 2,
+"id": 1
+}
+
+### Adcionar informações ao usuario
+
+POST /userInfor:
+
+Autorizathion: `Bearer ${token}`
+body:
+{
+"bio": "esta dando certo",
+"adress": "Maranhão",
+"userId": 2
+}
+
+GET /userInfor:
+
+Autorizathion: `Bearer ${token}`
+
+response:
+
+{
+"bio": "esta dando certo",
+"adress": "Maranhão",
+"userId": 2,
+"id": 1
+}
