@@ -12,6 +12,7 @@ const rules = auth.rewriter({
   users: 600,
   desc: 644,
   userInfor: 660,
+  products: 444,
 });
 
 app.use(cors());

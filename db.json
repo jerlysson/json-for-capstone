@@ -9,5 +9,13 @@
     }
   ],
   "desc": [],
-  "userInfor": []
+  "userInfor": [],
+  "products": [
+    {
+      "name": "Artesanal Gold",
+      "price": 12.5,
+      "category": "Hamburger",
+      "image": "https://s2.glbimg.com/_aDIbd8syfuFj1jj4mOgBCIwyww=/e.glbimg.com/og/ed/f/original/2018/08/21/lanche.jpg"
+    }
+  ]
 }
