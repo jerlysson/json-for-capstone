@@ -8,8 +8,18 @@
       "id": 1
     }
   ],
-  "desc": [],
-  "userInfor": [],
+  "desc": [
+    {
+      "desc": "Teste de descrição",
+      "userId": 1
+    }
+  ],
+  "userInfor": [
+    {
+      "address": "maranhão",
+      "market-name": "Kz Burgue"
+    }
+  ],
   "products": [
     {
       "name": "Artesanal Gold",
