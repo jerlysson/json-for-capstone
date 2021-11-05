@@ -24,6 +24,18 @@ Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usu
 
 ### ENDPOINT BASE : https://atividade-json-serve.herokuapp.com/
 
+### Buscar produtos
+
+GET/ products <br/>
+
+Response <br/>
+{
+"name": "",
+"price": 12.5,
+"category": "",
+"image": ""
+}
+
 ### Adcionar Descrição
 
 POST /desc
