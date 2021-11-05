@@ -27,13 +27,13 @@ Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usu
 ### Buscar produtos
 
 GET/ products <br/>
-
+<br/>
 Response <br/>
 {
-"name": "",
-"price": 12.5,
-"category": "",
-"image": ""
+"name": "",<br/>
+"price": 12.5,<br/>
+"category": "",<br/>
+"image": ""<br/>
 }
 
 ### Adcionar Descrição
