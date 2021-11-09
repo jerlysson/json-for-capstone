@@ -7,6 +7,14 @@
       "age": 38,
       "id": 1,
       "store": false
+    },
+    {
+      "email": "jerlysson@mail.com",
+      "password": "$2a$10$p5dLxl7jW7IwqEDb6QcKreTlmM4avlsspknRjlb7s9GbVPBbOmsv.",
+      "name": "jerlysson",
+      "age": 28,
+      "id": 2,
+      "store": true
     }
   ],
   "products": [
@@ -15,23 +23,19 @@
       "name": "Produto teste",
       "description": "uma descrição",
       "Price": 10,
-      "userId": 1,
-      "comments": [
-        {
-          "id": 1,
-          "description": "feedback no produto"
-        }
-      ]
+      "userId": 2
     }
   ],
   "comments": [
     {
       "id": 1,
-      "description": "feedback para o vendedor"
+      "description": "feedback para o vendedor",
+      "userId": 2
     },
     {
       "id": 1,
-      "description": "feedback do produto"
+      "description": "feedback do produto",
+      "productId": 1
     }
   ]
 }
