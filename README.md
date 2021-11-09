@@ -17,7 +17,7 @@ body{<br/>
 
 response {<br/>
 "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.<br/>eyJlbWFpbCI6Implcmx5c3NvbkBtYWlsLmNvbSIsImlhdCI6MTYzNjQ2NzAzOCwiZXhwIjoxNjM2NDcwNjM4LCJzdWIiOiIyIn0.xtbIKXcdo9ScyW2t8jq5m8R2o7LubqNwad9NcTCPoCQ",
-"user": {<br/>
+"user": {
 "email": "example@mail.com",<br/>
 "name": "Kenzinho",<br/>
 "age": 38,<br/>
@@ -39,7 +39,7 @@ body{<br/>
 }<br/>
 response{<br/>
 "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Implcmx5c3NvbkBtYWlsLmNvbSIsImlhdCI6MTYzNjQ3NzUxMywiZXhwIjoxNjM2NDgxMTEzLCJzdWIiOiIyIn0.b_L-9X6krHfACvVAJK7TPFjodX4OHXs_zVV5yhLP3FY",
-"user": {<br/>
+"user": {
 "email": "example@mail.com",<br/>
 "name": "Kenzinho",<br/>
 "age": 38,<br/>
@@ -70,9 +70,35 @@ POST/comments<br/>
 
 body{<br/>
 
-    "description": "muito bom o produto",<br/>
-    "productId": 1<br/>
+    "description": "muito bom o produto",
+    "productId": 1
 
+}
+Response {
+"description": "muito bom o produto",
+"productId": 1,
+"id": 1
+}
+
+###BUSCAR FEEDBACK DE UM CERTO PRODUTO
+
+productID = 1 <--- aqui seria o id do produto "ex. acima seria o 'id=1' "
+
+GET`/products/${productID}?\_embed=comments`
+
+reponse {
+"id": 1,
+"name": "Produto teste",
+"description": "uma descrição",
+"Price": 10,
+"userId": 2,
+"comments": [
+{
+"id": 1,
+"description": "muito bom o produto",
+"productId": 1
+}
+]
 }
 
 ### adcionar feedbak ao Vendedor
@@ -81,7 +107,33 @@ POST/comments<br/>
 
 body{<br/>
 
-    "description": "muito bom o vendedor",<br/>
-    "userId": 1<br/>
+    "description": "muito bom o vendedor",
+    "userId": 1
 
+}
+response{
+"description": "Otimo vendedor",
+"userId": 2,
+"id": 1
+}
+###BUSCAR FEEDBACK DE UM CERTO VENDEDOR
+
+vendedorID = 1 <--- aqui seria o id do produto "ex. acima seria o 'id=1' "
+
+GET`/products/${userId}?\_embed=comments` <br/>
+
+reponse {
+"email": "example@mail.com",
+"password": "$2a$10$p5dLxl7jW7IwqEDb6QcKreTlmM4avlsspknRjlb7s9GbVPBbOmsv.",
+"name": "example",
+"age": 28,
+"id": 2,
+"store": true,
+"comments": [
+{
+"id": 1,
+"description": "feedback para o vendedor",
+"userId": 2
+}
+]
 }
