@@ -9,7 +9,7 @@ POST /signup <br/>
 POST /users
 
 body{<br/>
-"email": "",<br/>
+"email": "example@mail.com",<br/>
 "password": 12345678,<br/>
 "name": "Kenzinho",<br/>
 "age": 38,<br/>
