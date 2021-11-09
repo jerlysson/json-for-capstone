@@ -15,7 +15,14 @@
       "name": "Produto teste",
       "description": "uma descrição",
       "Price": 10,
-      "userId": 1
+      "userId": 1,
+      "comments": [
+        {
+          "id": 1,
+          "description": "feedback no produto",
+          "productId": 1
+        }
+      ]
     }
   ],
   "comments": [
@@ -26,7 +33,7 @@
     },
     {
       "id": 1,
-      "description": "feedback no produto",
+      "description": "feedback do produto",
       "productId": 1
     }
   ]
