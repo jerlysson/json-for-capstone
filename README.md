@@ -75,30 +75,30 @@ body{<br/>
 
 }<br/>
 Response {<br/>
-"description": "muito bom o produto",
-"productId": 1,
-"id": 1
+"description": "muito bom o produto",<br/>
+"productId": 1,<br/>
+"id": 1<br/>
 }<br/>
 
 ###BUSCAR FEEDBACK DE UM CERTO PRODUTO
 
-productID = 1 <--- aqui seria o id do produto "ex. acima seria o 'id=1' "
+productID = 1 <--- aqui seria o id do produto "ex. acima seria o 'id=1' "<br/>
 
-GET`/products/${productID}?\_embed=comments`
+GET`/products/${productID}?\_embed=comments`<br/>
 
-reponse {
-"id": 1,
-"name": "Produto teste",
-"description": "uma descrição",
-"Price": 10,
-"userId": 2,
-"comments": [
-{
-"id": 1,
-"description": "muito bom o produto",
-"productId": 1
-}
-]
+reponse {<br/>
+"id": 1,<br/>
+"name": "Produto teste",<br/>
+"description": "uma descrição",<br/>
+"Price": 10,<br/>
+"userId": 2,<br/>
+"comments": [<br/>
+{<br/>
+"id": 1,<br/>
+"description": "muito bom o produto",<br/>
+"productId": 1<br/>
+}<br/>
+]<br/>
 }
 
 ### adcionar feedbak ao Vendedor
@@ -111,29 +111,30 @@ body{<br/>
     "userId": 1
 
 }
-response{
-"description": "Otimo vendedor",
-"userId": 2,
-"id": 1
+response{<br/>
+"description": "Otimo vendedor",<br/>
+"userId": 2,<br/>
+"id": 1<br/>
 }
+<br/>
 ###BUSCAR FEEDBACK DE UM CERTO VENDEDOR
 
-vendedorID = 1 <--- aqui seria o id do produto "ex. acima seria o 'id=1' "
+vendedorID = 1 <--- aqui seria o id do produto "ex. acima seria o 'id=1' "<br/>
 
 GET`/products/${userId}?\_embed=comments` <br/>
 
-reponse {
-"email": "example@mail.com",
-"password": "$2a$10$p5dLxl7jW7IwqEDb6QcKreTlmM4avlsspknRjlb7s9GbVPBbOmsv.",
-"name": "example",
-"age": 28,
-"id": 2,
-"store": true,
-"comments": [
-{
-"id": 1,
-"description": "feedback para o vendedor",
-"userId": 2
+reponse {<br/>
+"email": "example@mail.com",<br/>
+"password": "$2a$10$p5dLxl7jW7IwqEDb6QcKreTlmM4avlsspknRjlb7s9GbVPBbOmsv.",<br/>
+"name": "example",<br/>
+"age": 28,<br/>
+"id": 2,<br/>
+"store": true,<br/>
+"comments": [<br/>
+{<br/>
+"id": 1,<br/>
+"description": "feedback para o vendedor",<br/>
+"userId": 2<br/>
 }
 ]
 }
