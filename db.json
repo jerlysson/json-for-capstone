@@ -19,8 +19,7 @@
       "comments": [
         {
           "id": 1,
-          "description": "feedback no produto",
-          "productId": 1
+          "description": "feedback no produto"
         }
       ]
     }
@@ -28,13 +27,11 @@
   "comments": [
     {
       "id": 1,
-      "description": "feedback para o vendedor",
-      "userId": 1
+      "description": "feedback para o vendedor"
     },
     {
       "id": 1,
-      "description": "feedback do produto",
-      "productId": 1
+      "description": "feedback do produto"
     }
   ]
 }
