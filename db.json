@@ -22,7 +22,7 @@
       "id": 1,
       "name": "Produto teste",
       "description": "uma descrição",
-      "Price": 10,
+      "price": 10,
       "userId": 2
     }
   ],

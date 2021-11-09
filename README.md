@@ -71,7 +71,7 @@ POST/comments<br/>
 body{<br/>
 
     "description": "muito bom o produto",
-    "productId": 1
+    "productId": 1   <-- aqui determina de onde é o comentario
 
 }<br/>
 Response {<br/>
@@ -90,7 +90,7 @@ reponse {<br/>
 "id": 1,<br/>
 "name": "Produto teste",<br/>
 "description": "uma descrição",<br/>
-"Price": 10,<br/>
+"price": 10,<br/>
 "userId": 2,<br/>
 "comments": [<br/>
 {<br/>
@@ -108,11 +108,11 @@ POST/comments<br/>
 body{<br/>
 
     "description": "muito bom o vendedor",
-    "userId": 1
+    "userId": 1 <-- aqui determina de onde é o comentario
 
 }
 response{<br/>
-"description": "Otimo vendedor",<br/>
+"description": "feedback para o vendedor",<br/>
 "userId": 2,<br/>
 "id": 1<br/>
 }
