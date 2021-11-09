@@ -36,6 +36,16 @@
       "id": 1,
       "description": "feedback do produto",
       "productId": 1
+    },
+    {
+      "id": 2,
+      "description": "feedback do produto 2",
+      "productId": 1
+    },
+    {
+      "id": 2,
+      "description": "feedback para o vendedor 2",
+      "userId": 2
     }
   ]
 }
