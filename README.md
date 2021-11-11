@@ -119,7 +119,7 @@ response{<br/>
 <br/>
 ###BUSCAR FEEDBACK DE UM CERTO VENDEDOR
 
-vendedorID = 1 <--- aqui seria o id do produto "ex. acima seria o 'id=1' "<br/>
+userId = 1 <--- aqui seria o id do produto "ex. acima seria o 'id=1' "<br/>
 
 GET`/products/${userId}?\_embed=comments` <br/>
 
