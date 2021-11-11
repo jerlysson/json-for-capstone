@@ -13,7 +13,7 @@ const rules = auth.rewriter({
   comments: 660,
   products: 660,
   profiles: 660,
-  address: 600,
+  address: 660,
 });
 
 app.use(cors());
