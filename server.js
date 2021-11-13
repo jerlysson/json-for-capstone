@@ -14,6 +14,9 @@ const rules = auth.rewriter({
   products: 660,
   profiles: 660,
   address: 660,
+  payment: 660,
+  themes: 660,
+  photos: 660,
 });
 
 app.use(cors());
