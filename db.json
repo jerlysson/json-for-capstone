@@ -45,6 +45,86 @@
       "description": "uma descrição",
       "price": 10,
       "userId": 2
+    },
+    {
+      "id": 2,
+      "image": "https://static.clubeextra.com.br/img/uploads/1/324/674324.jpg",
+      "name": "Achocolatado Em Pó Original Toddy Pote 400G",
+      "description": "Sabor inconfundível no seu leite e nas suas receitas!",
+      "price": 5.79,
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "image": "https://static.clubeextra.com.br/img/uploads/1/14/676014.jpg",
+      "name": "Achocolatado em Pó NESCAU 200g",
+      "description": "Nescau é o achocolatado preferido dos brasileiros e está na mesa de todas as famílias desde 1932. Toda linha em pó é fortificada com ACTIV-GO, uma combinação exclusiva de 9 vitaminas e minerais essenciais, como cálcio, ferro e vitaminas A, C, D e do complexo B, que fazem parte de uma alimentação equilibrada. É a energia nutritiva para começar bem o dia, todos os dias. É Nescau ou Nescau. CONTÉM GLÚTEN. Ingredientes: Açúcar, cacau em pó, maltodextrina, minerais [cálcio (carbonato de cálcio) e ferro (pirofosfato férrico)], vitaminas [vitamina C (ácido L-ascórbico), niacina (nicotinamida), vitamina B2 (riboflavina), vitamina A (acetato de retinila), vitamina B6 (cloridrato de piridoxina), vitamina D (colecalciferol) e vitamina b12 (cianocobalamina)], emulsificante lecitina de soja e aromatizante.",
+      "price": 4.65,
+      "userId": 2
+    },
+    {
+      "id": 4,
+      "image": "https://static.clubeextra.com.br/img/uploads/1/966/598966.png",
+      "name": "Macarrão Italiano Espaghetti Nº 5 BARILLA 500g",
+      "description": "Ingredientes: Sêmola de trigo durum / duro, água. CONTÉM GLÚTEN.",
+      "price": 9.99,
+      "userId": 2
+    },
+    {
+      "id": 5,
+      "image": "https://static.clubeextra.com.br/img/uploads/1/346/669346.jpg",
+      "name": "Café Pilão Torrado E Moído Tradicional Almofada 500g",
+      "description": "Ingredientes: Café torrado e moído. NÃO CONTÉM GLÚTEN. Informação Adicional: O café Pilão Tradicional torrado e moído, de intensidade 8, disponível na versão almofada de 500g, tem um ponto de torra acentuado e um processo de moagem fina e uniforme, que garantem e preservam seu sabor forte e encorpado. É perfeito para o seu dia a dia. Características: Variedade: Seleção de grãos das melhores regiões de café do Brasil. Sabor: Saboroso e intenso, o melhor para agradar o exigente paladar brasileiro. Torração: Forte. Uso: - Método tradicional. - Cafeteira elétrica. - Cafeteira italiana.",
+      "price": 17.99,
+      "userId": 2
+    },
+    {
+      "id": 6,
+      "image": "https://static.clubeextra.com.br/img/uploads/1/219/528219.jpg",
+      "name": "Arroz Agulhinha Tipo 1 CAMIL Pacote 5kg",
+      "description": "Ingredientes: Arroz. NÃO CONTÉM GLÚTEN.",
+      "price": 22.99,
+      "userId": 2
+    },
+    {
+      "id": 7,
+      "image": "https://static.clubeextra.com.br/img/uploads/1/628/454628.jpg",
+      "name": "Açúcar Refinado UNIÃO Pacote 1kg",
+      "description": "Ingredientes: Origem vegetal: sacarose de cana de açucar.NÃO CONTÉM GLÚTEN.",
+      "price": 4.19,
+      "userId": 2
+    },
+    {
+      "id": 8,
+      "image": "https://static.clubeextra.com.br/img/uploads/1/980/645980.png",
+      "name": "Café Torrado e Moído Tradicional 3 CORAÇÕES Pacote 500g",
+      "description": "Ingredientes: Café torrado e moído. NÃO CONTÉM GLÚTEN.",
+      "price": 10,
+      "userId": 2
+    },
+    {
+      "id": 9,
+      "image": "https://static.clubeextra.com.br/img/uploads/1/949/591949.png",
+      "name": "Sopão de Carne com Macarrão e Legumes KITANO 196g",
+      "description": "Ingredientes: Macarrão, farinha de trigo enriquecida com ferro e ácido fólico, amido de milho sal, fécula de mandioca modificada, condimento preparado sabor carne, (sal, amido de milho, extrato de levedura, maltodextrina, açúcar, realçador de sabor glutamato monossódico, aromatizantes idênticosmonossódico, aromatizantes idênticos ao natural, antiumectante dióxido de silício e estabilizante fosfato dissódico), cloreto de potássio, gordura vegetal, proteína vegetal hidrolizada, cebola, carne bovina, açúcar, tomate, cenoura, alho, pimentão, condimento preparado sabor cebola,(maltodextrina, cebola, extrato de levedura, especiarias, óleo vegetal,acidulante ácido cítrico, antiumectante dióxido de silício e aromatizante natural), cebolinha verde, colorífico, aipo, coentro, pimenta branca e cominho. Realçadores de sabor: glutamato monossódico e inosinato de sódio. Espessante:goma xantana. antiumectante dióxido de silício. Corante natural:caramelo. Antioxidante: dióxido de silício.corante natural: caramelo Antioxidante:ácido cítrico. CONTÉM GLÚTEN.",
+      "price": 6.69,
+      "userId": 2
+    },
+    {
+      "id": 10,
+      "image": "https://static.clubeextra.com.br/img/uploads/1/940/13648940.jpeg",
+      "name": "Mel Bisnaga Holanda 200gr - Baldoni",
+      "description": "O Mel Holanda Bisnaga da Baldoni é Rico em glicose e frutose, além de orgânico o mel é uma preciosa fonte energética que pode ser utilizada como alimento, adoçante e até medicamento. Sua ingestão permite uma alimentação imediata e intensiva de todo o sistema muscular, graças à glicose e o armazenamento de glicogênio no fígado, graças à frutose. Sobre a marca: A Baldoni nasceu como entreposto de mel, em 1983, de uma família empreendedora e apaixonada pelas abelhas e seus produtos. É uma empresa genuinamente nacional que posiciona a inovação e a qualidade como sua razão de existência. Eles tem como principal objetivo disponibilizar bens de consumo apícolas para os segmentos Alimentar e Farma, respeitando a cadeia produtiva e em total sintonia com funcionários, clientes e fornecedores de modo a remunerar acionistas e sociedade de forma justa, integra e sustentável.   O Mel Orgânico Baldoni é produzido com o Mel Orgânico de florada silvestre, se diferencia pelo processo de coleta e envase, que segue os processos tradicionais de produção orgânica ao utilizar recursos naturais de maneira sustentável. É envasado em nova bisnaga com formato ergonômico e tampa Drop System Control, uma válvula de silicone que controla a vazão do mel, evitando desperdícios e facilitando o manuseio. Por ser rico em carboidratos e açúcar o mel é ótima fonte de energia. O alimento também conta com potássio, magnésio, sódio, cálcio, fósforo, ferro, manganês, cobalto, cobre e alguns outros minerais, entre estes nutrientes, o potássio é o que está mais presente no mel e é bom para o equilíbrio da pressão arterial. Rico em glicose e frutose, o mel é uma preciosa fonte energética que pode ser utilizada como alimento, adoçante e até medicamento. Sua ingestão permite uma alimentação imediata e intensiva de todo o sistema muscular, graças à glicose e o armazenamento de glicogênio no fígado, graças à frutos.   Ele pode ser adicionado em vários pratos, sobremesas, iogurtes, sucos, doces e outras inúmeras receitas.   Mel. NÃO CONTÉM GLÚTEN.  ",
+      "price": 17.90,
+      "userId": 2
+    },
+    {
+      "id": 11,
+      "image": "https://static.clubeextra.com.br/img/uploads/1/415/511415.jpg",
+      "name": "Picanha Resfriada Maturatta FRIBOI PeÃ§a 1,4kg",
+      "description": "Ingredientes: Picanha resfriada maturatta. NÃO CONTÉM GLÚTEN",
+      "price": 156.79,
+      "userId": 2
     }
   ],
   "comments": [
