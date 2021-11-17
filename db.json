@@ -41,7 +41,7 @@
     {
       "id": 1,
       "image": "",
-      "name": "Produto teste",
+      "name": "a Produto teste",
       "description": "uma descrição",
       "price": 10,
       "userId": 2
@@ -49,7 +49,7 @@
     {
       "id": 2,
       "image": "https://static.clubeextra.com.br/img/uploads/1/324/674324.jpg",
-      "name": "Achocolatado Em Pó Original Toddy Pote 400G",
+      "name": " a Achocolatado Em Pó Original Toddy Pote 400G",
       "description": "Sabor inconfundível no seu leite e nas suas receitas!",
       "price": 5.79,
       "userId": 2
@@ -57,7 +57,7 @@
     {
       "id": 3,
       "image": "https://static.clubeextra.com.br/img/uploads/1/14/676014.jpg",
-      "name": "Achocolatado em Pó NESCAU 200g",
+      "name": "a Achocolatado em Pó NESCAU 200g",
       "description": "Nescau é o achocolatado preferido dos brasileiros e está na mesa de todas as famílias desde 1932. Toda linha em pó é fortificada com ACTIV-GO, uma combinação exclusiva de 9 vitaminas e minerais essenciais, como cálcio, ferro e vitaminas A, C, D e do complexo B, que fazem parte de uma alimentação equilibrada. É a energia nutritiva para começar bem o dia, todos os dias. É Nescau ou Nescau. CONTÉM GLÚTEN. Ingredientes: Açúcar, cacau em pó, maltodextrina, minerais [cálcio (carbonato de cálcio) e ferro (pirofosfato férrico)], vitaminas [vitamina C (ácido L-ascórbico), niacina (nicotinamida), vitamina B2 (riboflavina), vitamina A (acetato de retinila), vitamina B6 (cloridrato de piridoxina), vitamina D (colecalciferol) e vitamina b12 (cianocobalamina)], emulsificante lecitina de soja e aromatizante.",
       "price": 4.65,
       "userId": 2
@@ -65,7 +65,7 @@
     {
       "id": 4,
       "image": "https://static.clubeextra.com.br/img/uploads/1/966/598966.png",
-      "name": "Macarrão Italiano Espaghetti Nº 5 BARILLA 500g",
+      "name": "a Macarrão Italiano Espaghetti Nº 5 BARILLA 500g",
       "description": "Ingredientes: Sêmola de trigo durum / duro, água. CONTÉM GLÚTEN.",
       "price": 9.99,
       "userId": 2
