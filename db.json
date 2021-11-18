@@ -112,7 +112,7 @@
   "products": [
     {
       "id": 1,
-      "image": "",
+      "image": "https://static.clubeextra.com.br/img/uploads/1/949/591949.png",
       "name": "a Produto teste",
       "description": "uma descrição",
       "price": 10,
@@ -200,7 +200,7 @@
     },
     {
       "id": 1,
-      "image": "",
+      "image": "https://static.clubeextra.com.br/img/uploads/1/324/674324.jpg",
       "name": "Produto teste",
       "description": "uma descrição",
       "price": 10,
@@ -291,25 +291,25 @@
     {
       "id": 1,
       "description": "feedback para o vendedor",
-      "avaliation": "0 a 5 estrelas",
+      "avaliation": 10,
       "userId": 2
     },
     {
       "id": 1,
       "description": "feedback do produto",
-      "avaliation": "0 a 5 estrelas",
+      "avaliation": 10,
       "productId": 2
     },
     {
       "id": 2,
       "description": "feedback do produto 2",
-      "avaliation": "0 a 5 estrelas",
+      "avaliation": 10,
       "productId": 2
     },
     {
       "id": 2,
       "description": "feedback para o vendedor 2",
-      "avaliation": "0 a 5 estrelas",
+      "avaliation": 10,
       "userId": 2
     }
   ]
