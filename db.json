@@ -99,16 +99,48 @@
   ],
   "profiles": [
     {
-      "id": 1,
-      "fisrtName": "foo",
-      "lastName": "lano",
-      "userID": 2
+      "firstName": "jerlysson",
+      "lastName": "miranda",
+      "mobileNumber": "22455545",
+      "userId": 9,
+      "id": 2
     }
   ],
-  "addresses": [],
-  "payments": [],
-  "photos": [],
-  "themes": [],
+  "addresses": [
+    {
+      "cep": "64020200",
+      "address1": "Rua General João Henrique Gaioso",
+      "address2": "7",
+      "number": "376",
+      "district": "Saci",
+      "city": "Teresina",
+      "state": "PI",
+      "userId": 2,
+      "id": 1
+    }
+  ],
+  "payments": [
+    {
+      "payment": "Paypal",
+      "userId": 2,
+      "id": 1
+    }
+  ],
+  "photos": [
+    {
+      "id": "rhv9p9j",
+      "deletehash": "nfOiJKrvHr4VVcc",
+      "link": "https://i.imgur.com/rhv9p9j.jpg",
+      "userId": 2
+    }
+  ],
+  "themes": [
+    {
+      "theme": "Dark",
+      "userId": 2,
+      "id": 1
+    }
+  ],
   "products": [
     {
       "id": 1,
