@@ -8,7 +8,7 @@
       "age": 38,
       "category": "usuario",
       "image": "https://cdn3.vectorstock.com/i/1000x1000/98/12/logo-for-grocery-store-vector-21609812.jpg",
-      "background": "",
+      "background": "https://i.ytimg.com/vi/GlNbzAGZC2M/maxresdefault.jpg",
       "location": "",
       "store": true
     },
@@ -103,6 +103,13 @@
       "lastName": "miranda",
       "mobileNumber": "22455545",
       "userId": 2,
+      "id": 1
+    },
+    {
+      "firstName": "Kenzinho",
+      "lastName": "Grocery",
+      "mobileNumber": "8722455545",
+      "userId": 1,
       "id": 2
     }
   ],
@@ -117,6 +124,17 @@
       "state": "PI",
       "userId": 2,
       "id": 1
+    },
+    {
+      "cep": "64020200",
+      "address1": "Rua General João Henrique Gaioso",
+      "address2": "7",
+      "number": "376",
+      "district": "Saci",
+      "city": "Teresina",
+      "state": "PI",
+      "userId": 1,
+      "id": 2
     }
   ],
   "payments": [
@@ -124,6 +142,11 @@
       "payment": "Paypal",
       "userId": 2,
       "id": 1
+    },
+    {
+      "payment": "Payonner",
+      "userId": 1,
+      "id": 2
     }
   ],
   "photos": [
@@ -132,6 +155,12 @@
       "deletehash": "nfOiJKrvHr4VVcc",
       "link": "https://i.imgur.com/rhv9p9j.jpg",
       "userId": 2
+    },
+    {
+      "id": "rhv9p9d",
+      "deletehash": "nfOiJKrvHr4VVcca",
+      "link": "https://i.imgur.com/rhv9p9j.jpg",
+      "userId": 1
     }
   ],
   "themes": [
@@ -139,6 +168,11 @@
       "theme": "Dark",
       "userId": 2,
       "id": 1
+    },
+    {
+      "theme": "Dark",
+      "userId": 1,
+      "id": 2
     }
   ],
   "products": [
